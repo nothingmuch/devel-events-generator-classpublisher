@@ -7,6 +7,8 @@ with qw/Devel::Events::Generator/;
 
 use Class::Publisher;
 
+our $VERSION = "0.01";
+
 sub subscribe {
 	my ( $self, $publisher, $event ) = @_;
 
