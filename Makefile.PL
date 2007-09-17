@@ -11,6 +11,9 @@ WriteMakefile(
 	SIGN         => 1,
 	PL_FILES     => { },
 	PREREQ_PM    => {
+		'Devel::Events' => '0.03',
+		'Class::Publisher' => 0,
+		'Test::use::ok' => 0,
 	},
 );
 
